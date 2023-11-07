@@ -1,0 +1,18 @@
+.photo-grid {
+  padding: 0 3.75%;
+  padding-top: 92px;
+}
+
+@media  (max-width: 1024px) {
+  .photo-grid {
+    padding-left: 4.75%;
+    padding-right: 4.75%;
+  }
+}
+
+@media  (max-width: 720px) {
+  .photo-grid {
+    padding-top: 64px;
+    gap: 12px;
+  }
+}
